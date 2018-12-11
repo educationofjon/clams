@@ -11,7 +11,6 @@
     "lint": "eslint lib/ test/ || exit 0",
     "test": "mocha --reporter spec test/*-test.js",
     "docs": "jsdoc -c jsdoc.json",
-    "clean": "rm -f {browser/,}{bchmulti.js,bcash-worker.js,app.js,worker.js}",
     "webpack": "webpack --config webpack.browser.js",
     "webpack-browser": "webpack --config webpack.browser.js",
     "webpack-app": "webpack --config webpack.app.js"
@@ -30,6 +29,7 @@
     "blgr": "~0.1.4",
     "bmutex": "~0.1.4",
     "bsert": "~0.0.6",
+    "bsock": "~0.1.4",
     "bstring": "~0.3.4",
     "buffer-map": "~0.0.4",
     "bufio": "~1.0.3",
